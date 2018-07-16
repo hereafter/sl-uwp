@@ -1,3 +1,6 @@
 [submodule "sl"]
 	path = sl
 	url = https://github.com/mtoyoda/sl
+[submodule "PDCurses"]
+	path = PDCurses
+	url = https://github.com/wmcbrine/PDCurses
