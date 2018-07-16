@@ -2,8 +2,12 @@
 
 #include "pdcwin.h"
 
-#ifdef WINDOWS_UWP|
+#ifdef WINDOWS_UWP
+#pragma warning (push)
+#pragma warning (disable:4005)
 #define GetKeyState(X) (0)
+#define MapVirtualKey(X, Y) 0x00
+#pragma warning (pop)
 #endif
 
 /*man-start**************************************************************
