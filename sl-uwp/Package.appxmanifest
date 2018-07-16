@@ -55,7 +55,7 @@
             Executable="sl_uwp.exe" 
             EntryPoint="sl_uwp.App">
             <uap5:AppExecutionAlias desktop4:Subsystem="console" iot2:Subsystem="console">
-              <uap5:ExecutionAlias Alias="sl_uwp.exe" />
+              <uap5:ExecutionAlias Alias="sl.exe" />
             </uap5:AppExecutionAlias>
           </uap5:Extension>
       </Extensions>
