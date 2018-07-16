@@ -164,6 +164,7 @@
     <ClCompile Include="src\pdcurses\pdcurses\window.c">
       <Filter>pdcurses</Filter>
     </ClCompile>
+    <ClCompile Include="usleep.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -173,6 +174,7 @@
     <ClInclude Include="src\pdcurses\curses.h">
       <Filter>pdcurses</Filter>
     </ClInclude>
+    <ClInclude Include="usleep.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png">
