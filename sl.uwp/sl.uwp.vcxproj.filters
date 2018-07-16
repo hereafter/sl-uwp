@@ -217,5 +217,7 @@
   <ItemGroup>
     <None Include="sl-uwp_TemporaryKey.pfx" />
     <None Include="README.md" />
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="sl.uwp_StoreKey.pfx" />
   </ItemGroup>
 </Project>

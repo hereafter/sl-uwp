@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4" xmlns:iot2="http://schemas.microsoft.com/appx/manifest/iot/windows10/2" IgnorableNamespaces="uap mp uap5 iot2 desktop4">
-  <Identity Name="e214c834-1277-4d0b-befb-48b5e5d3eb1c" Publisher="CN=hereafter" Version="1.0.0.0" />
-  <mp:PhoneIdentity PhoneProductId="e214c834-1277-4d0b-befb-48b5e5d3eb1c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="25510Hereafter2.sl-cli" Publisher="CN=61AA0D33-CF4F-46A5-93A4-EE3200B3B4BD" Version="1.1.0.0" />
+  <mp:PhoneIdentity PhoneProductId="142ed944-2093-4e97-94d0-168e33b0638c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>sl-cli</DisplayName>
-    <PublisherDisplayName>hereafter</PublisherDisplayName>
+    <PublisherDisplayName>Hereafter2</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
