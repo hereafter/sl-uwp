@@ -15,8 +15,13 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="sl.uwp.App" desktop4:Subsystem="console" desktop4:SupportsMultipleInstances="true" iot2:Subsystem="console" iot2:SupportsMultipleInstances="true">
-      <uap:VisualElements DisplayName="SL (Steam Locomotive) CLI for Windows" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="SL (Steam Locomotive) runs across your terminal when you type &quot;sl&quot; as you meant to type &quot;ls&quot;. It's just a joke command, and not useful at all." BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+      <uap:VisualElements DisplayName="SL CLI for Windows (Steam Locomotive)" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="SL (Steam Locomotive) runs across your terminal when you type &quot;sl&quot; as you meant to type &quot;ls&quot;. It's just a joke command, and not useful at all." BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png" ShortName="SL.exe">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
