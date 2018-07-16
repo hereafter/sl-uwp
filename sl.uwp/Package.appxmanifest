@@ -17,7 +17,7 @@
   <mp:PhoneIdentity PhoneProductId="e214c834-1277-4d0b-befb-48b5e5d3eb1c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>sl-uwp</DisplayName>
+    <DisplayName>sl-cli for Windows</DisplayName>
     <PublisherDisplayName>hereafter</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -33,7 +33,7 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="sl_uwp.App"
+      EntryPoint="sl.uwp.App"
       desktop4:Subsystem="console" 
       desktop4:SupportsMultipleInstances="true" 
       iot2:Subsystem="console" 
@@ -52,8 +52,8 @@
       <Extensions>
           <uap5:Extension 
             Category="windows.appExecutionAlias" 
-            Executable="sl_uwp.exe" 
-            EntryPoint="sl_uwp.App">
+            Executable="sl.uwp.exe" 
+            EntryPoint="sl.uwp.App">
             <uap5:AppExecutionAlias desktop4:Subsystem="console" iot2:Subsystem="console">
               <uap5:ExecutionAlias Alias="sl.exe" />
             </uap5:AppExecutionAlias>

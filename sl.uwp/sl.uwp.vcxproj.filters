@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>867b1528-7f97-498f-b083-4f6a8c0cfb93</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>b1db0498-2683-4525-924c-20ca62e6baa3</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="SL">
+      <UniqueIdentifier>{b089db16-1307-41d7-9639-a1fc46306b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDCurses">
+      <UniqueIdentifier>{ddf320d1-76c3-4a41-b28c-b547d5f76508}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="..\sl\sl.c">
+      <Filter>SL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\wincon\pdcsetsc.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\wincon\pdcdisp.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\wincon\pdcgetsc.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\wincon\pdckbd.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\wincon\pdcscrn.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\wincon\pdcutil.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\addch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\addchstr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\addstr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\attr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\beep.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\bkgd.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\border.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\clear.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\color.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\debug.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\delch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\deleteln.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\deprec.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\getch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\getstr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\getyx.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\inch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\inchstr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\initscr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\inopts.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\insch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\insstr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\instr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\kernel.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\keyname.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\mouse.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\move.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\outopts.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\overlay.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\pad.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\panel.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\printw.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\refresh.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\scanw.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\scr_dump.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\scroll.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\slk.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\termattr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\terminfo.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\touch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\util.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PDCurses\pdcurses\window.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\sl\sl.h">
+      <Filter>SL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PDCurses\curses.h">
+      <Filter>PDCurses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PDCurses\wincon\pdcwin.h">
+      <Filter>PDCurses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sl-uwp_TemporaryKey.pfx" />
+  </ItemGroup>
+</Project>

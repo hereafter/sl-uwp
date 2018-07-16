@@ -1,6 +1,4 @@
 ﻿#include "pch.h"
 
-int main()
-{
-   
-}
+#include "sl.h"
+
