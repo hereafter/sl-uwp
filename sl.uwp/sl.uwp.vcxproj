@@ -224,7 +224,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="README.md" />
+    <None Include="..\README.md" />
     <None Include="sl-uwp_TemporaryKey.pfx" />
     <None Include="sl.uwp_StoreKey.pfx" />
   </ItemGroup>
