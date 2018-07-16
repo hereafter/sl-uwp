@@ -1,0 +1,3 @@
+[submodule "sl"]
+	path = sl
+	url = https://github.com/mtoyoda/sl
