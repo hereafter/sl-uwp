@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" 
+  xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4" 
+  xmlns:iot2="http://schemas.microsoft.com/appx/manifest/iot/windows10/2" 
+  IgnorableNamespaces="uap mp uap5 iot2 desktop4">
+
+  <Identity
+    Name="e214c834-1277-4d0b-befb-48b5e5d3eb1c"
+    Publisher="CN=hereafter"
+    Version="1.0.0.0" />
+
+  <mp:PhoneIdentity PhoneProductId="e214c834-1277-4d0b-befb-48b5e5d3eb1c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>sl-uwp</DisplayName>
+    <PublisherDisplayName>hereafter</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+      Executable="$targetnametoken$.exe"
+      EntryPoint="sl_uwp.App"
+      desktop4:Subsystem="console" 
+      desktop4:SupportsMultipleInstances="true" 
+      iot2:Subsystem="console" 
+      iot2:SupportsMultipleInstances="true" 
+      >
+      <uap:VisualElements
+        DisplayName="sl-uwp"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png"
+        Description="sl-uwp"
+        BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+      
+      <Extensions>
+          <uap5:Extension 
+            Category="windows.appExecutionAlias" 
+            Executable="sl_uwp.exe" 
+            EntryPoint="sl_uwp.App">
+            <uap5:AppExecutionAlias desktop4:Subsystem="console" iot2:Subsystem="console">
+              <uap5:ExecutionAlias Alias="sl_uwp.exe" />
+            </uap5:AppExecutionAlias>
+          </uap5:Extension>
+      </Extensions>
+      
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
